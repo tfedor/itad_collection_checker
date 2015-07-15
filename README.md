@@ -57,13 +57,13 @@ The obvious next step for the script is the extension to multiple stores. I trie
 
 You will need to update following:
 
-1. @include of the script
-2. page.container() - find where you want the info to show up and get the HTML element
-3. page._addHTML() - how the new content will be added to the container
-4. page.requestAuthorization() - should be fairly similar to GOG, but you may want to use different style or class
-5. page.getPlain() - load info about the game from the store page and use it to load plain
+1. ```@include``` of the script
+2. ```page.container()``` - find where you want the info to show up and get the HTML element
+3. ```page._addHTML()``` - how the new content will be added to the container
+4. ```page.requestAuthorization()``` - should be fairly similar to GOG, but you may want to use different style or class
+5. ```page.getPlain()``` - load info about the game from the store page and use it to load plain
 
-You will also have to use your own client_id and apikey in app object because you will need to
+You will also have to use your own ```client_id``` and ```apikey``` in app object because you will need to
 set up update redirect URIs on ITAD. Consult [our API documentation](http://docs.itad.apiary.io) for further explanation of our OAuth implementation
 and API endpoints.
 
