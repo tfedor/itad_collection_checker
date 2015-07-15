@@ -44,6 +44,9 @@ something like *Owned at Steam* instead if you own the game.
 
 ### Screenshots
 
+![GOG Authorize example](https://raw.githubusercontent.com/tfedor/itad_collection_checker/master/screenshots/authorize.png)
+
+![GOG owned example](https://raw.githubusercontent.com/tfedor/itad_collection_checker/master/screenshots/owned.png)
 
 ### Development
 
