@@ -2,6 +2,7 @@
 // @name        ITAD Collection Checker
 // @namespace   itad
 // @include     http://www.gog.com/game/*
+// @include     https://www.gog.com/game/*
 // @version     1.0
 // @grant       GM_xmlhttpRequest
 // @grant       GM_setValue
